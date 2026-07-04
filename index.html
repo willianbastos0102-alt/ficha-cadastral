@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body>
+    <h1>ficha cadastral</h1>
+    <input type="text" placeholder="nome"> 
+    <input type="button" value="confirmar"> 
+    <h2>data de nascimento</h2>
+    <input type="date" placeholder="data de nascimento">
+    <input type="button" value="confirmar">
+    <h3>sexo</h3>
+    <input type="radio" name="sexo" value="masculino"> Masculino
+    <input type="radio" name="sexo" value="feminino"> Feminino
+    <h4>estado civil</h4>
+    <select>
+        <option value="solteiro">Solteiro</option>
+        <option value="casado">Casado</option>
+        <option value="divorciado">Divorciado</option>
+        <option value="viuvo">Viúvo</option>
+    </select>
+    <h4>e-mail</h4>
+    <input type="email" placeholder="email">
+    <input type="button" value="confirmar">
+    <h5>profissão</h5>
+    <input type="text" placeholder="profissão">
+    <input type="button" value="confirmar">
+    <h5>telefone</h5>
+    <input type="tel" placeholder="telefone">
+    <input type="button" value="confirmar">
+    <h5>linkedln</h5>
+    <input type="url" placeholder="linkedln.com">
+    <input type="button" value="confirmar">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], input[type="url"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="button"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        input[type="button"]:hover {
+            background-color: #0056b3;
+
+        }
+    </style>
+</body>
+</html>
